@@ -1,0 +1,7 @@
+/*CSS Box Model*/
+footer p {
+    padding: 20px;
+    border: 2px b#90A8ff;
+    margin: 10px;
+    background-color: #90A8D5;
+}
