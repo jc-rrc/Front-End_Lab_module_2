@@ -1,9 +1,9 @@
 /*CSS Box Model*/
 footer p {
-    padding: 20px;
-    border: 2px;
-    margin: 10px;
-    background-color: #90A8D5;
+    padding: 5em;
+    border: 2em;
+    margin: 5em;
+    background-color: #D3C9E4;
 }
 
 /* Display Classes*/
@@ -22,3 +22,30 @@ footer p {
 .display-none {
     display: none;
 }   
+
+/*CSS Positioning*/
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid azure;
+    background-color: aliceblue;
+}
+
+#title {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: B8C6E0;
+    background-color: #B8C6E0;
+}
+
+#links {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    border: #B8C6E0;
+}
+
