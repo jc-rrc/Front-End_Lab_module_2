@@ -105,3 +105,52 @@ img {
     font-size: 30px;
     text-align: center;
 }
+
+
+/*-------------- Responsive Design --------------*/
+@media only screen and (max-width: 400px) {
+	body {
+		background-color: #71A5BA;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		background-color: #adcbf7;
+	}
+}
+
+
+
+
+/*-------------- Pseudo-elements --------------*/
+
+p::first-line {
+    color: rgb(18, 52, 243);
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    color: #0122ca;
+    font-size: x-large;
+}
+
+
+/*-------------- Pseudo-classes --------------*/
+.hover-box {
+    border: 1px solid black;
+}
+
+.hover-box:hover {
+    background-color: rgb(221, 221, 253);
+    color: white;
+}
+
+.active-box {
+    border: 1px solid black;
+}
+
+.active-box:active {
+    background-color: rgb(169, 222, 253);
+    color: white;
+}
