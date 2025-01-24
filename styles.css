@@ -1,7 +1,24 @@
 /*CSS Box Model*/
 footer p {
     padding: 20px;
-    border: 2px b#90A8ff;
+    border: 2px;
     margin: 10px;
     background-color: #90A8D5;
 }
+
+/* Display Classes*/
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-none {
+    display: none;
+}   
