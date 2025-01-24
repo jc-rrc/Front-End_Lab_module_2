@@ -1,4 +1,4 @@
-/*CSS Box Model*/
+/*-------------- CSS Box Model --------------*/
 footer p {
     padding: 5em;
     border: 2em;
@@ -6,7 +6,14 @@ footer p {
     background-color: #D3C9E4;
 }
 
-/* Display Classes*/
+
+
+
+/*-------------- Display Classes --------------*/
+img {
+    width: 15%;
+}
+
 .display-block {
     display: block;
 }
@@ -17,13 +24,17 @@ footer p {
 
 .display-inline-block {
     display: inline-block;
+
 }
 
 .display-none {
     display: none;
 }   
 
-/*CSS Positioning*/
+
+
+
+/*-------------- CSS Positioning --------------*/
 .fixed {
     position: fixed;
     top: 0;
@@ -35,17 +46,62 @@ footer p {
 
 #title {
     position: relative;
-    width: 400px;
+    width: 1000px;
     height: 200px;
-    border: B8C6E0;
+    border: 5px;
     background-color: #B8C6E0;
 }
 
 #links {
     position: absolute;
-    top: 80px;
-    left: 0;
-    width: 200px;
-    border: #B8C6E0;
+    top: 70px;
+    right: 1000px;
 }
 
+.pokemon-center {
+    position: relative;
+    text-align: center;
+}
+
+
+
+/*-------------- CSS Flex Box --------------*/
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#grid-title {
+    display: flex;
+    justify-content: center;
+}
+
+#pokemon-title {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*-------------- CSS Grid --------------*/
+.grid-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #B8C6E0;
+    padding: 20px;
+}
+
+.grid-section > div {
+    background-color: #DCE2F2;
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}

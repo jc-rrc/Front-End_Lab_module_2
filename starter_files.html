@@ -10,14 +10,14 @@
 	<body>
 		<header>
 			<h1 id="title">My Styling Practice</h1>
-			<nav id="links">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+				<nav id="links">
+					<ul class="flex-container">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
 		</header>
 
 		<main>
@@ -29,8 +29,8 @@
 				</p>
 			</section>
 
-			<section class="display-inline">
-				<article>
+			<section>
+				<article class="display-inline-block">
 					<h3>Article One</h3>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -39,15 +39,7 @@
 					</p>
 				</article>
 				<article>
-					<h3 class="display-inline-block">Article Two</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Sed sit amet facilisis elit. Vestibulum non facilisis
-						lectus.
-					</p>
-				</article>
-				<article>
-					<h3>Article Three</h3>
+					<h3>Article Two</h3>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Sed sit amet facilisis elit. Vestibulum non facilisis
@@ -55,28 +47,31 @@
 					</p>
 				</article>
 				<article class="display-none">
-					<h3>Article Four</h3>
+					<h3>Article Three</h3>
 					<p>
-						For some reason I cannot see this body of text in the live
-						server... I wonder if its because of the display-block. :D
+						I wonder why this article does not show up in the 
+						live server? is it because of the class??
 					</p>
 				</article>
 			</section>
-
+			<section class="pokemon-center">
+				<h4 id="pokemon-title">Winter Themed Pokemon!</h4>
+				<img src="glaceon.jpg" alt="Picture of a cubchoo (Pokemon)" class="display-inline">
+				<img src="vulpix.png" alt="Picture of a vulpix winter (Pokemon)" class="display-inline">
+				<img src="Cubchoo.webp" alt="Picture of a cubchoo (Pokemon)" class="display-inline">
+			</section>
+				<h4 id="grid-title">Things To do during the Winter:</h4>
 			<section class="grid-section">
-				<div class="grid-item">Item 1</div>
-				<div class="grid-item">Item 2</div>
-				<div class="grid-item">Item 3</div>
-				<div class="grid-item">Item 4</div>
-				<div class="grid-item">Item 5</div>
+				<div class="grid-item">Sledding</div>
+				<div class="grid-item">Ice Skating</div>
+				<div class="grid-item">Snowboarding</div>
+				<div class="grid-item">Build A Snowman</div>
+				<div class="grid-item">Stay Inside</div>
+				<div class="grid-item">Go on a Vacation</div>
 			</section>
 			<section>
 				<h4 class="fixed">Winter Aesthetic</h5>
 			</section>
-
-
-
-
 		</main>
 
 		<footer>
